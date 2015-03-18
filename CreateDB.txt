@@ -1,0 +1,13 @@
+CREATE TABLE Student
+(
+  Name    VARCHAR2(20) NOT NULL ,
+  Vorname  VARCHAR2(20) NOT NULL,
+  StrasseNr  VARCHAR2(25) NOT NULL ,
+  Postleitzahl NUMBER(5) ,
+  Ort VARCHAR2(25) NOT NULL ,
+  TelefonNr VARCHAR2(15) NOT NULL ,
+  Studiengang VARCHAR2(3) NOT NULL ,
+  MatrikelNr NUMBER(5)  NOT NULL,
+  Semester NUMBER(2) NOT NULL
+); 
+
